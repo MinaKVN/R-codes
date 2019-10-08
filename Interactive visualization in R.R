@@ -2,9 +2,8 @@ library(ggplot2)
 g <- ggplot(txhousing, aes(x = date, y = sales, group = city)) +
   geom_line(alpha = 0.4)
 g
+
 head(txhousing)
-
-
 library(plotly)
 g <- ggplot(txhousing, aes(x = date, y = sales, group = city)) +
   geom_line(alpha = 0.4) 
